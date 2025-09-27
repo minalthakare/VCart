@@ -1,0 +1,17 @@
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Sevices.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Sevices.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\obj\Debug\VCart.Services.csproj.AssemblyReference.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\obj\Debug\VCart.Services.csproj.CoreCompileInputs.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\obj\Debug\VCart.Sevices.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\obj\Debug\VCart.Sevices.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Core.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.DTO.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Repositories.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\EntityFramework.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Core.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Core.dll.config
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.DTO.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Repositories.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\EntityFramework.xml
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\obj\Debug\VCart.Se.066DBA55.Up2Date
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Sevices\bin\Debug\VCart.Repositories.dll.config

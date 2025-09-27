@@ -1,0 +1,15 @@
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Repositories.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Repositories.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\obj\Debug\VCart.Repositories.csproj.AssemblyReference.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\obj\Debug\VCart.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\obj\Debug\VCart.Repositories.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\obj\Debug\VCart.Repositories.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Core.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Core.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Core.dll.config
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\obj\Debug\VCart.Re.DB90F0A8.Up2Date
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\VCart.Repositories.dll.config
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Repositories\bin\Debug\EntityFramework.SqlServer.xml

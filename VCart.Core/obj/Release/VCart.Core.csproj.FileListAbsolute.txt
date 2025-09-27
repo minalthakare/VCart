@@ -1,0 +1,14 @@
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\VCart.Core.dll.config
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\VCart.Core.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\VCart.Core.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\EntityFramework.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\EntityFramework.xml
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.csproj.AssemblyReference.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.Migrations.Initial.resources
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.csproj.GenerateResource.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.csproj.CoreCompileInputs.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.csproj.Up2Date
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.Core\obj\Release\VCart.Core.pdb

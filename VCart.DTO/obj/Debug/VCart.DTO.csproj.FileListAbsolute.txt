@@ -1,0 +1,6 @@
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\bin\Debug\VCart.DTO.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\bin\Debug\VCart.DTO.pdb
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\obj\Debug\VCart.DTO.csproj.AssemblyReference.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\obj\Debug\VCart.DTO.csproj.CoreCompileInputs.cache
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\obj\Debug\VCart.DTO.dll
+C:\Users\minal\source\repos\B25CSDEMO\VCartApp\VCart.DTO\obj\Debug\VCart.DTO.pdb
