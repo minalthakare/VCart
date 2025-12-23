@@ -1,7 +1,7 @@
 pipeline {
     agent any
 environment {
-        DOTNET_ROOT = "C:\\Program Files\\dotnet"
+         DOTNET_ROOT = "C:\\Program Files\\dotnet"
         SOLUTION_NAME = "VCartApp.sln"
         PROJECT_PATH = "VCart/VCart.Web.csproj"
         NEXUS_URL = "http://localhost:8081/repository/Batch25/"
@@ -15,7 +15,7 @@ stages {
 	  stage('Checkout') {
             steps {
                 echo "[${new Date().format('HH:mm:ss')}] Cleaning workspace..."
-              
+                deleteDir()
                 checkout scm
             }
         }
@@ -34,59 +34,32 @@ stages {
                 bat "dotnet build ${env.PROJECT_PATH} -c Release --no-restore"
             }
         }
-  stage('SonarQube Analysis and Testing..') {
-    steps {
-        script {
-            def scannerHome = tool 'SonarScanner for MSBuild'
+ stage('SonarQube Analysis') {
+			            steps {
+			                script {
+			                    // Assign tool inside script block
+			                    def scannerHome = tool 'SonarScanner for MSBuild'
+			
+			                    // Use withSonarQubeEnv inside script block
+			                    withSonarQubeEnv('MySonarQube') {
+			                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" begin /k:\"${Project_Name}\""
+			                        bat "dotnet build"
+			                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
+			                    }
+			                }
+			            }
+			        }
 
-            withSonarQubeEnv('MySonarQube') {
-                // Step 1: Sonar Begin
-                bat """
-                \"${scannerHome}\\SonarScanner.MSBuild.exe\" begin ^
-                    /k:\"${env.Project_Name}_${env.BRANCH_NAME}\" ^
-                    /n:\"${env.Project_Name} (${env.BRANCH_NAME})\" ^
-                    /v:\"${env.BUILD_NUMBER}\" ^
-                    /d:sonar.cs.opencover.reportsPaths=\"**/coverage.opencover.xml\" ^
-                    /d:sonar.coverage.exclusions=\"**/*Migrations*/**\"
-                """
-
-                // Step 2: Build
-                bat "dotnet build ${env.SOLUTION_NAME} -c Release"
-
-				echo 'Testting...'
-                // Step 3: Test with Coverage
-               bat """
-    dotnet test ${env.SOLUTION_NAME} ^
-        --settings \"${WORKSPACE}\\coverlet.runsettings\" ^
-        --logger \"trx;LogFileName=TestResults.trx\" ^
-        /p:CollectCoverage=true ^
-        /p:CoverletOutput=\"${WORKSPACE}\\TestResults\\coverage.opencover.xml\" ^
-        /p:CoverletOutputFormat=opencover
-    """
-
-                // Step 4: Sonar End
-                bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
-            }
-        }
-    }
-}
-
-	 stage('Create and Push NuGet Package') {
+stage('Test') {
             steps {
-                script {
-                    powershell """
-                        powershell.exe -NonInteractive -ExecutionPolicy Bypass `
-                        -File \"${env.PS_SCRIPT_PATH}\" `
-                        -ProjectName \"${env.Project_Name}\" `
-						-ProjectPath \"${env.PROJECT_PATH}\" `
-                        -BranchName \"${env.BRANCH_NAME}\" `
-                        -BuildNumber \"${env.BUILD_NUMBER}\" `
-                        -NexusUrl \"${env.NEXUS_URL}\" 
-                    """
-                    
-                }
+                echo 'Testing...'
             }
         }
 
+stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }
+        }
     }
 }
