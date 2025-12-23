@@ -27,13 +27,13 @@ stages {
             }
         }
 
-	
 	stage('Build') {
-            steps {
-                   echo "⚙️ Building .NET project..."
-                bat "dotnet build ${env.PROJECT_PATH} -c Release --no-restore"
-            }
-        }
+    steps {
+        bat 'dotnet build VCartApp.sln -c Release --no-restore'
+    }
+}
+	
+	
  stage('SonarQube Analysis') {
 			            steps {
 			                script {
